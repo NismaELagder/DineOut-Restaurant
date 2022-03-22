@@ -203,6 +203,10 @@ p {
   font-size: 24px;
 }
 
+.nav li a:hover {
+  color: var(--main-color);
+}
+
 /* when list is shown */
 .nav.shown {
   transform: translateX(0);
